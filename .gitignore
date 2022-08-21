@@ -1,4 +1,4 @@
 admin/lib/config.php
-img_data/
+#img_data/
 cache/
 database/
