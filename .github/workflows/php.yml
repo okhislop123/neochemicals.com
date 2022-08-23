@@ -30,7 +30,7 @@ jobs:
         echo "${MESSAGES}"
         curl -X POST -H 'Content-type: application/json' --data "${MESSAGES}" ${WEBHOOK_URL}
     - name: deploy CD
-      run: curl https://chongnongnhaxuong.com/M0Kc0V2hUaM6jYOfJ7YZ.php?t=byUAbrWWLT49OOia9LIN
+      run: curl https://neochemicals.com/M0Kc0V2hUaM6jYOfJ7YZ.php?t=byUAbrWWLT49OOia9LIN
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
