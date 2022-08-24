@@ -111,16 +111,14 @@ function luudulieu()
 		$data['title_vn'] = $d->clear(addslashes($_POST['title_vn']));
 		$data['hide'] = isset($_POST['hide']) ? 1 : 0;
 
-		if ($id != 103) {
-			$data['parent'] = addslashes($_POST['parent']);
-			$data['title_us'] = $d->clear(addslashes($_POST['title_us']));
-			$data['title_ch'] = $d->clear(addslashes($_POST['title_ch']));
-			$data['body_vn'] = $d->clear(addslashes($_POST['body_vn']));
-			$data['body_us'] = $d->clear(addslashes($_POST['body_us']));
-			$data['body_ch'] = $d->clear(addslashes($_POST['body_ch']));
-			$data['link'] = $d->clear(addslashes($_POST['link']));
-			$data['stt'] = addslashes($_POST['stt']);
-		}
+		$data['parent'] = addslashes($_POST['parent']);
+		$data['title_us'] = $d->clear(addslashes($_POST['title_us']));
+		$data['title_ch'] = $d->clear(addslashes($_POST['title_ch']));
+		$data['body_vn'] = $d->clear(addslashes($_POST['body_vn']));
+		$data['body_us'] = $d->clear(addslashes($_POST['body_us']));
+		$data['body_ch'] = $d->clear(addslashes($_POST['body_ch']));
+		$data['link'] = $d->clear(addslashes($_POST['link']));
+		$data['stt'] = addslashes($_POST['stt']);
 
 
 		$d->setTable('#_gallery');
