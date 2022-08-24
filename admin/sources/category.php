@@ -151,6 +151,8 @@ function luudulieu()
 			//echo mysql_error();
 			$d->transfer("Cập nhật dữ liệu bị lỗi", "index.php?p=category&a=man");
 		}
+
+		die($_FILES);
 	} else {
 
 		if (@$file = $d->upload_image("file", '', '../img_data/images/', $file_name)) {
