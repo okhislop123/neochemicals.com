@@ -80,15 +80,15 @@ $khachhang__list = $d->o_fet("select * from #_tintuc where id_loai = 1316 and no
     </div>
 </div>
 
-<div id="scroll<?= $thuonghieu__title["id"] ?>" class="thuonghieu" style="background-image: url(<?= URLPATH . 'img_data/images/' . $thuonghieu__title['hinh_anh'] ?>);">
+<!-- <div id="scroll<?= $thuonghieu__title["id"] ?>" class="thuonghieu" style="background-image: url(<?= URLPATH . 'img_data/images/' . $thuonghieu__title['hinh_anh'] ?>);">
     <div class="container__item__bs">
         <div class="thuonghieu__nb">
             <?= $thuonghieu__title['mo_ta_' . $lang] ?>
         </div>
     </div>
-</div>
+</div> -->
 
-<section id="scroll<?= $sanpham__title["id"] ?>" class="prob">
+<!-- <section id="scroll<?= $sanpham__title["id"] ?>" class="prob">
     <div class="container__item__bs">
         <h2 class="title__home"><?= $sanpham__title['title_' . $lang] ?></h2>
         <div class="prob__content">
@@ -106,7 +106,7 @@ $khachhang__list = $d->o_fet("select * from #_tintuc where id_loai = 1316 and no
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section id="scroll<?= $dactinh["id"] ?>" class="dactinh">
     <div class="container__item__bs">
@@ -117,7 +117,7 @@ $khachhang__list = $d->o_fet("select * from #_tintuc where id_loai = 1316 and no
     </div>
 </section>
 
-<section id="scroll<?= $loiich__title["id"] ?>" class="loiich">
+<!-- <section id="scroll<?= $loiich__title["id"] ?>" class="loiich">
     <div class="container__item__bs">
         <h2 class="title__home"><?= $loiich__title['title_' . $lang] ?></h2>
         <div class="row">
@@ -133,7 +133,7 @@ $khachhang__list = $d->o_fet("select * from #_tintuc where id_loai = 1316 and no
             <?php } ?>
         </div>
     </div>
-</section>
+</section> -->
 
 <section id="scroll<?= $chungnhan__title["id"] ?>" class="chungnhan">
     <div class="container__item__bs">
