@@ -100,7 +100,8 @@
 				<a href="index.php?p=bai-viet&a=edit&id=<?= $items[$i]['id'] ?>&page=<?= @$_GET['page'] ?>"><?= $items[$i]['ten_ch'] ?></a-->
 						</td>
 						<td>
-							<?= ($items[$i]['hinh_anh'] <> '') ? "<img style='width:50px;height:50px;object-fit:cover' src='" . URLPATH . "img_data/images/" . $items[$i]['hinh_anh']  : ""; ?>
+							<?php $img = $items[$i]['hinh_anh'] <> '' ? URLPATH . "img_data/images/" . $items[$i]['hinh_anh'] : "" ?>
+							<?= "<img style='width:50px;heightL50px;object-fit:cover' src=" . $img . " />" ?>
 						</td>
 						<!-- <td><?= $items[$i]['so_thu_tu'] ?></td> -->
 						<td><?= date('d-m-Y h:i:s', $items[$i]['ngay_dang']) ?></td>
