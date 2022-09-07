@@ -212,6 +212,27 @@ $(document).ready(function () {
       },
     },
   });
+
+  $(".hinhanhxd__group.owl-carousel").owlCarousel({
+    margin: 0,
+    nav: false,
+    dots: true,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    navText: [
+      '<img src="./templates/images/next_03.png" alt="icon1">',
+      '<img src="./templates/images/next_05.png" alt="icon2">',
+    ],
+    responsive: {
+      0: {
+        items: 1,
+        nav: false,
+      },
+    },
+  });
+
   $(".galley__slider .content.owl-carousel").owlCarousel({
     margin: 0,
     nav: true,
@@ -291,16 +312,16 @@ myHeader = document.querySelector("nav.navbar.navbar-default.xs-none");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
-  scrollFunction()
+  scrollFunction();
 };
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
-    myHeader.classList.add("bg-2")
+    myHeader.classList.add("bg-2");
   } else {
     mybutton.style.display = "none";
-    myHeader.classList.remove("bg-2")
+    myHeader.classList.remove("bg-2");
   }
 }
 $(document).ready(function () {
@@ -578,7 +599,7 @@ $("#frm_send button").click(function (event) {
     err = "Email không hợp lệ";
   }
   if (!vnf_regex.test(dienthoai)) {
-    err = 'Số điện thoại không hợp lệ';
+    err = "Số điện thoại không hợp lệ";
   }
   if (ten.length < 1) {
     err = "Chưa nhập tên";

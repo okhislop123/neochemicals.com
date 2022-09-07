@@ -1,6 +1,7 @@
 <?php
 $textslide = $d->getImg(1130);
 $product__nb = $d->getImg(1302);
+$hinhnhxd__nb = $d->getImg(1319);
 $projalist__nb = $d->getImg(1297);
 $product__title = $d->simple_fetch("select * from #_category where id = 1302");
 $product__link = $d->simple_fetch("select * from #_category where id = 1291");
@@ -12,9 +13,10 @@ $chungnhan__title = $d->simple_fetch("select * from #_category where id = 1296")
 $why__title = $d->simple_fetch("select * from #_category where id = 1314");
 $ex__title = $d->simple_fetch("select * from #_category where id = 1315");
 $proja__title = $d->simple_fetch("select * from #_category where id = 1297");
+$hinhanhxd__title = $d->simple_fetch("select * from #_category where id = 1319");
 $khachhang__title = $d->simple_fetch("select * from #_category where id = 1316");
 $tuvan__title = $d->simple_fetch("select * from #_category where id = 1317");
-
+$quytrinhthicong__title = $d->simple_fetch("select * from #_category where id = 1318");
 
 $dactinh = $d->simple_fetch("select * from #_category where id = 1291");
 $video__item = $d->simple_fetch("select * from #_category where id = 1304");
@@ -25,6 +27,8 @@ $chungnhan__list = $d->o_fet("select * from #_tintuc where id_loai = 1296 and no
 $why__list = $d->o_fet("select * from #_tintuc where id_loai = 1314 and noi_bat = 1 order by so_thu_tu asc, id desc limit 0,6");
 $ex__list = $d->o_fet("select * from #_tintuc where id_loai = 1315 and noi_bat = 1 order by so_thu_tu asc, id desc limit 0,4");
 $khachhang__list = $d->o_fet("select * from #_tintuc where id_loai = 1316 and noi_bat = 1 order by so_thu_tu asc, id desc");
+
+$quytrinhthicong__list = $d->o_fet("select * from #_tintuc where id_loai = 1318 and noi_bat = 1 order by so_thu_tu asc, id desc limit 0,6");
 ?>
 <div id="scroll1288"></div>
 <div class="sliderShow" style="background-image: url(<?= URLPATH . 'img_data/images/' . $textslide[0]['picture'] ?>);">
@@ -151,6 +155,43 @@ $khachhang__list = $d->o_fet("select * from #_tintuc where id_loai = 1316 and no
     </div>
 </section>
 
+<section class="quytrinhthicong" id="scroll<?= $quytrinhthicong__title["id"] ?>">
+    <div class="container__item__bs">
+        <h2 class="title__home"><?= $quytrinhthicong__title['title_' . $lang] ?></h2>
+        <div class="quytrinh__group">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="quytrinh__trai">
+                        <div class="embed-responsive embed-responsive-4by3">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?= $quytrinhthicong__title['video'] ?>" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="quytrinh__phai">
+                        <?php foreach ($quytrinhthicong__list as $key => $item) { ?>
+                            <div class="quytrinh__item">
+                                <div class="quytrinh__item__img">
+                                    <img src="<?= URLPATH . 'img_data/images/' . $item['hinh_anh'] ?>" alt="<?= $item['title_' . $lang] ?>">
+                                </div>
+                                <div class="quytrinh__nhom">
+                                    <h3><?= $item['title_' . $lang] ?></h3>
+                                    <div><?= $item['noi_dung_' . $lang] ?></div>
+                                </div>
+
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
 <section id="scroll<?= $why__title["id"] ?>" class="why">
     <div class="container__item__bs">
         <h2 class="title__home"><?= $why__title['title_' . $lang] ?></h2>
@@ -209,6 +250,23 @@ $khachhang__list = $d->o_fet("select * from #_tintuc where id_loai = 1316 and no
         </div>
     </div>
 </section>
+
+
+<section id="scroll<?= $hinhanhxd__title["id"] ?>" class="hinhanhxaydung">
+    <div class="container__item__bs">
+        <h2 class="title__home"><?= $hinhanhxd__title['title_' . $lang] ?></h2>
+        <div class="hinhanhxd__group owl-carousel">
+            <?php foreach ($hinhnhxd__nb as $key => $item) { ?>
+                <div class="hinhanh__item__item">
+                    <div class="hinhanh__item__img">
+                        <img src="<?= URLPATH . 'img_data/images/' . $item['picture'] ?>" alt="<?= $item['title_' . $lang] ?>">
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
+</section>
+
 
 <section id="scroll<?= $khachhang__title["id"] ?>" class="khachhang">
     <div class="container__item__bs">

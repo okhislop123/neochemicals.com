@@ -169,6 +169,7 @@
 						</td>
 						<td class="td_right">
 							<textarea  name="body_vn" rows="5" class="input width400 form-control" id="body_vn"><?=@$items[0]['body_vn']?></textarea>
+							<?php $ckeditor->replace('body_vn'); ?>
 						</td>
 					</tr>	
 				</tbody>
@@ -193,6 +194,7 @@
 							</td>
 							<td class="td_right">
 								<textarea  name="body_us" rows="5" class="input width400 form-control" id="body_us"><?=@$items[0]['body_us']?></textarea>
+								<?php $ckeditor->replace('body_us'); ?>
 
 							</td>
 						</tr>
@@ -218,7 +220,7 @@
 							</td>
 							<td class="td_right">
 								<textarea  name="body_ch" rows="5" class="input width400 form-control" id="body_ch"><?=@$items[0]['body_ch']?></textarea>
-
+								<?php $ckeditor->replace('body_ch'); ?>
 							</td>
 						</tr>
 					</tbody>

@@ -214,6 +214,9 @@
   }
 }
 @media (max-width: 1000px) {
+  .container__item__bs .row {
+    margin: 0;
+  }
   .news__img2 {
     height: 250px;
   }
@@ -374,6 +377,13 @@
 }
 /*Ipad dọc(768 x 1024)*/
 @media screen and (max-width: 768px) {
+  .hinhanh__item__img {
+    height: 250px;
+  }
+  .quytrinh__trai > div {
+    height: 300px;
+    margin-bottom: 15px;
+  }
   section.dactinh tr {
     display: flex;
     flex-wrap: wrap;

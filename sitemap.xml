@@ -10,203 +10,235 @@
 				       <priority>1</priority>
 				  	</url>
 						<url>
+						 <loc>http://localhost:8080/buoc-1-xu-ly-va-lam-sach-be-mat-can-thi-cong.html</loc>
+						 <priority>0.616</priority>
+						</url>
+						<url>
+						 <loc>http://localhost:8080/buoc-2-thi-cong-son-lot-neu-mai-ton-bi-tham-dot-ri-set.html</loc>
+						 <priority>0.663</priority>
+						</url>
+						<url>
+						 <loc>http://localhost:8080/buoc-3-son-phu-lop-1.html</loc>
+						 <priority>0.731</priority>
+						</url>
+						<url>
+						 <loc>http://localhost:8080/buoc-4-son-phu-lop-2.html</loc>
+						 <priority>0.665</priority>
+						</url>
+						<url>
+						 <loc>http://localhost:8080/buoc-5-nghiem-thu-va-ban-giao.html</loc>
+						 <priority>0.567</priority>
+						</url>
+						<url>
+						 <loc>http://localhost:8080/buoc-6-bao-hanh-bao-tri.html</loc>
+						 <priority>0.535</priority>
+						</url>
+						<url>
 						 <loc>http://localhost:8080/mr-nguyen-phong-2.html</loc>
-						 <priority>0.597</priority>
+						 <priority>0.793</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/mr-nguyen-phong-1.html</loc>
-						 <priority>0.591</priority>
+						 <priority>0.592</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/mr-nguyen-phong.html</loc>
-						 <priority>0.79</priority>
+						 <priority>0.683</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/-500-000.html</loc>
-						 <priority>0.644</priority>
+						 <priority>0.732</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/-50.html</loc>
-						 <priority>0.752</priority>
+						 <priority>0.726</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/-200.html</loc>
-						 <priority>0.587</priority>
+						 <priority>0.579</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/-15.html</loc>
-						 <priority>0.586</priority>
+						 <priority>0.654</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/uy-tin-hang-dau.html</loc>
-						 <priority>0.514</priority>
+						 <priority>0.519</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/quyen-loi-khach-hang.html</loc>
-						 <priority>0.704</priority>
+						 <priority>0.767</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/kinh-nghiem.html</loc>
-						 <priority>0.527</priority>
+						 <priority>0.769</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/de-cao-chat-luong.html</loc>
-						 <priority>0.797</priority>
+						 <priority>0.612</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/an-toan.html</loc>
-						 <priority>0.772</priority>
+						 <priority>0.705</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/bao-hanh-bao-tri.html</loc>
-						 <priority>0.676</priority>
+						 <priority>0.585</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/nha-xuong-mat-me.html</loc>
-						 <priority>0.8</priority>
+						 <priority>0.688</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/nang-suat-lam-viec-cua-cong-nhan-tang-cao.html</loc>
-						 <priority>0.613</priority>
+						 <priority>0.765</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/tiet-kiem-chi-phi-dien-nang.html</loc>
-						 <priority>0.662</priority>
+						 <priority>0.721</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/mai-ton-duoc-bao-ve-khong-bi-ri-set-tham-dot.html</loc>
-						 <priority>0.667</priority>
+						 <priority>0.696</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/thi-cong-de-dang-khong-gian-doan-san-xuat.html</loc>
-						 <priority>0.706</priority>
+						 <priority>0.522</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/chi-phi-dau-tu-thap.html</loc>
-						 <priority>0.586</priority>
+						 <priority>0.515</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/moi-truong-lam-viec-nong-buc-khien-cho-nang-suat-lao-dong-cong-nhan-giam-sut.html</loc>
-						 <priority>0.511</priority>
+						 <priority>0.605</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/hoat-dong-san-xuat-bi-dinh-tre-.html</loc>
-						 <priority>0.751</priority>
+						 <priority>0.776</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/hang-hoa-bi-hong-hoc-do-moi-truong-trong-xuong-qua-nong.html</loc>
-						 <priority>0.666</priority>
+						 <priority>0.5</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/chi-phi-dien-nang-lam-mat-tang-cao-dot-bien.html</loc>
-						 <priority>0.618</priority>
+						 <priority>0.541</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/mai-ton-bi-xuong-cap-hu-hong-nang-do-khong-duoc-bao-ve.html</loc>
-						 <priority>0.636</priority>
-						</url>
-						<url>
-						 <loc>http://localhost:8080/khong-the-thuc-hien-bao-hanh-bao-tri-do-gian-doan-san-xuat-ben-trong.html</loc>
 						 <priority>0.755</priority>
 						</url>
 						<url>
+						 <loc>http://localhost:8080/khong-the-thuc-hien-bao-hanh-bao-tri-do-gian-doan-san-xuat-ben-trong.html</loc>
+						 <priority>0.687</priority>
+						</url>
+						<url>
 						 <loc>http://localhost:8080/cn1-216.html</loc>
-						 <priority>0.763</priority>
+						 <priority>0.658</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/cn1.html</loc>
-						 <priority>0.626</priority>
+						 <priority>0.617</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/cn2.html</loc>
-						 <priority>0.672</priority>
+						 <priority>0.617</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/cn3.html</loc>
-						 <priority>0.621</priority>
+						 <priority>0.522</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/thiet-ke-website-chuyen-nghiep-gia-re-mien-phi-hosting-ten-mien.html</loc>
-						 <priority>0.706</priority>
+						 <priority>0.685</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/thiet-ke-website-chuyen-nghiep-gia-re-mien-phi-hosting-ten-mien-632.html</loc>
-						 <priority>0.56</priority>
+						 <priority>0.653</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/thiet-ke-website-chuyen-nghiep-gia-re-mien-phi-hosting-ten-mien-665.html</loc>
-						 <priority>0.718</priority>
+						 <priority>0.514</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/thiet-ke-website-chuyen-nghiep-gia-re-mien-phi-hosting-ten-mien-277.html</loc>
-						 <priority>0.798</priority>
+						 <priority>0.777</priority>
 						</url>
 					<url>
 					 <loc>http://localhost:8080/gioi-thieu.html</loc>
-					 <priority>0.549</priority>
+					 <priority>0.535</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/dac-tinh-uu-viet.html</loc>
-					 <priority>0.562</priority>
+					 <priority>0.747</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/chung-nhan-chat-luong.html</loc>
-					 <priority>0.749</priority>
+					 <priority>0.703</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/du-an.html</loc>
-					 <priority>0.637</priority>
+					 <priority>0.615</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/lien-he.html</loc>
-					 <priority>0.648</priority>
+					 <priority>0.6</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/nhung-van-de-ma-doanh-nghiep-gap-phai-khi-nang-nong-.html</loc>
-					 <priority>0.763</priority>
+					 <priority>0.722</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/thuong-hieu.html</loc>
-					 <priority>0.54</priority>
+					 <priority>0.581</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/san-pham-noi-bat.html</loc>
-					 <priority>0.675</priority>
+					 <priority>0.569</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/loi-ich-khi-su-dung-insumax-cho-mai-ton-nha-xuong.html</loc>
-					 <priority>0.76</priority>
+					 <priority>0.534</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/tai-sao-ban-nen-lua-chon-chung-toi.html</loc>
-					 <priority>0.511</priority>
-					</url>
-					<url>
-					 <loc>http://localhost:8080/doi-tac-cua-chung-toi.html</loc>
-					 <priority>0.551</priority>
+					 <priority>0.787</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/kinh-nghiem-0.html</loc>
-					 <priority>0.76</priority>
+					 <priority>0.654</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/danh-gia-cua-khach-hang.html</loc>
-					 <priority>0.625</priority>
+					 <priority>0.722</priority>
+					</url>
+					<url>
+					 <loc>http://localhost:8080/ban-can-tu-van-.html</loc>
+					 <priority>0.751</priority>
+					</url>
+					<url>
+					 <loc>http://localhost:8080/quy-trinh-thi-cong.html</loc>
+					 <priority>0.575</priority>
+					</url>
+					<url>
+					 <loc>http://localhost:8080/hinh-anh-xay-dung.html</loc>
+					 <priority>0.618</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/slide.html</loc>
-					 <priority>0.714</priority>
+					 <priority>0.774</priority>
 					</url>
 						<url>
 						 <loc>http://localhost:8080/insumax-eco.html</loc>
-						 <priority>0.626</priority>
+						 <priority>0.59</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/insumax-lite.html</loc>
-						 <priority>0.53</priority>
+						 <priority>0.723</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/insumax.html</loc>
-						 <priority>0.8</priority>
+						 <priority>0.75</priority>
 						</url>
 			</urlset>
