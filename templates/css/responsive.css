@@ -378,7 +378,7 @@
 /*Ipad dọc(768 x 1024)*/
 @media screen and (max-width: 768px) {
   .view__compare__item {
-    height: 25vh;
+    height: 25vh !important;
     width: calc(50% - 20px);
   }
   .hinhanh__item__img {

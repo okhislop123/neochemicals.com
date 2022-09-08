@@ -6172,7 +6172,6 @@ section.quytrinhthicong {
 }
 
 .view__container {
-  max-width: 1140px;
   width: 100%;
   position: absolute;
   top: 50%;
@@ -6213,4 +6212,22 @@ section.quytrinhthicong {
 
 body.no-scroll {
   overflow: hidden;
+}
+
+.view__compare__item.full {
+  width: 70% !important;
+  height: 70vh;
+}
+
+.view__compare__item.full-50 {
+  width: calc(50% - 20px);
+  height: 70vh;
+}
+
+.view__compare__item.full-33 {
+  height: 70vh;
+}
+
+.view__compare__item.full-50-2 {
+  width: calc(50% - 20px);
 }

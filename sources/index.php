@@ -354,9 +354,23 @@ $quytrinhthicong__list = $d->o_fet("select * from #_tintuc where id_loai = 1318 
         }
         document.querySelector("body").classList.add("no-scroll");
         let data = "";
+        let width = "";
+        const size = listImage.length;
         for (let i = 0; i < listImage.length; i++) {
+            if (size == 1) {
+                width = "full";
+            } else if (size == 2) {
+                width = "full-50";
+            } else if (size == 3) {
+                width = " full-33";
+            } else if (size == 4) {
+                width = " full-50-2"
+            } else {
+                width = "";
+            }
+
             data += `
-                <div class="view__compare__item">
+                <div class="view__compare__item ${width}">
                     <img src="${listImage[i].src}" alt="pic">
                 </div>
             `;
