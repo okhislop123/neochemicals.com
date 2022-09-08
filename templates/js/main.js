@@ -127,8 +127,8 @@ $(document).ready(function () {
     nav: false,
     dots: true,
     loop: true,
-    autoplay: false,
-    autoplayTimeout: 2000,
+    autoplay: true,
+    autoplayTimeout: 3000,
     autoplayHoverPause: true,
     navText: [
       '<img src="./templates/images/next_03.png" alt="icon1">',

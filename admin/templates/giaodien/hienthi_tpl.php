@@ -35,7 +35,7 @@
 				for ($i = 0; $i < $count; $i++) { ?>
 					<tr>
 						<td>
-							<?php if ($items[$i]['id'] != 10 && $items[$i]['id'] != 208  && $items[$i]['id'] != 290  && $items[$i]['id'] != 470  && $items[$i]['id'] != 530) { ?>
+							<?php if ($items[$i]['id'] != 10 && $items[$i]['id'] != 59  && $items[$i]['id'] != 290  && $items[$i]['id'] != 470  && $items[$i]['id'] != 530) { ?>
 								<input class="chk_box" type="checkbox" name="chk_child[]" value="<?= $items[$i]['id'] ?>">
 							<?php } ?>
 						</td>
@@ -55,7 +55,7 @@
 						</td>
 						<td>
 							<a href="index.php?p=giaodien&a=edit&id=<?= $items[$i]['id'] ?>&page=<?= @$_GET['page'] ?>&loaitin=<?= @$_GET['loaitin'] ?>" class="text-danger" title="Sửa"><i class="glyphicon glyphicon-edit"></i></a>&nbsp;&nbsp;&nbsp;
-							<?php if ($items[$i]['id'] != 10 && $items[$i]['id'] != 28  && $items[$i]['id'] != 29  && $items[$i]['id'] != 47  && $items[$i]['id'] != 53) { ?>
+							<?php if ($items[$i]['id'] != 10 && $items[$i]['id'] != 59  && $items[$i]['id'] != 29  && $items[$i]['id'] != 47  && $items[$i]['id'] != 53) { ?>
 								<a href="index.php?p=giaodien&a=delete&id=<?= $items[$i]['id'] ?>&page=<?= @$_GET['page'] ?>&loaitin=<?= @$_GET['loaitin'] ?>" onClick="if(!confirm('Xác nhận xóa?')) return false;" class="text-danger" title="Xóa"><i class="glyphicon glyphicon-remove"></i></a>
 							<?php } ?>
 						</td>
