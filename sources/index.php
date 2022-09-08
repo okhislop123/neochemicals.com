@@ -76,7 +76,7 @@ $quytrinhthicong__list = $d->o_fet("select * from #_tintuc where id_loai = 1318 
                                 $i = $key + 1;
                             }
                         ?>
-                            <li data-src="<?= $img ?>" onclick="handleSelectItem(this)"><label><?= $i ?></label><span><?= $item['ten_' . $lang] ?></span></li>
+                            <li data-id="<?= $item['id'] ?>" data-src="<?= $img ?>" onclick="handleSelectItem(this)"><label><?= $i ?></label><span><?= $item['ten_' . $lang] ?></span></li>
                         <?php } ?>
                     </ul>
                     <div class="compare" onclick="handleClickShowView(this)"><?= _sosanhgiaiphap ?></div>
@@ -325,9 +325,13 @@ $quytrinhthicong__list = $d->o_fet("select * from #_tintuc where id_loai = 1318 
     const handleSelectItem = (e) => {
         e.classList.toggle("active");
         const src = e.getAttribute("data-src");
-        const index = listImage.findIndex(item => item === src);
+        const id = e.getAttribute("data-id");
+        const index = listImage.findIndex(item => item.id === id);
         if (index === -1) {
-            listImage.push(src)
+            listImage.push({
+                id,
+                src
+            })
         } else {
             listImage.splice(index, 1);
         }
@@ -353,7 +357,7 @@ $quytrinhthicong__list = $d->o_fet("select * from #_tintuc where id_loai = 1318 
         for (let i = 0; i < listImage.length; i++) {
             data += `
                 <div class="view__compare__item">
-                    <img src="${listImage[i]}" alt="pic">
+                    <img src="${listImage[i].src}" alt="pic">
                 </div>
             `;
         }
