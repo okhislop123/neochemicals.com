@@ -15,6 +15,8 @@
 	define('_email','email');
 	define('_bando','Bản đồ');
 	define('_facebook','Facebook');
+	define('_sosanhgiaiphap','So sánh giải pháp');
+	define('_chonmotvande','Vui lòng chọn ít nhất một vấn đề');
 
 	define('_register_email','Đăng ký nhận email');
 	define('_type_email','Vui lòng nhập Email!');

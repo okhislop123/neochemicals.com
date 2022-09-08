@@ -69,16 +69,27 @@ $quytrinhthicong__list = $d->o_fet("select * from #_tintuc where id_loai = 1318 
                 <div class="list__pro">
                     <ul>
                         <?php foreach ($project__list as $key => $item) {
+                            $img = $item['hinh_anh'] ? URLPATH . 'img_data/images/' . $item['hinh_anh'] : URLPATH . 'templates/error/error.jpg';
                             if ($key + 1 < 10) {
                                 $i = "0" + $key + 1;
                             } else {
                                 $i = $key + 1;
                             }
                         ?>
-                            <li><label><?= $i ?></label><span><?= $item['ten_' . $lang] ?></span></li>
+                            <li data-src="<?= $img ?>" onclick="handleSelectItem(this)"><label><?= $i ?></label><span><?= $item['ten_' . $lang] ?></span></li>
                         <?php } ?>
                     </ul>
+                    <div class="compare" onclick="handleClickShowView(this)"><?= _sosanhgiaiphap ?></div>
+                    <div class="view__compare" onclick="handleCloseShowView(this)">
+                        <div class="close__view">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                        <div class="view__container">
+                            <!-- content here -->
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -307,3 +318,52 @@ $quytrinhthicong__list = $d->o_fet("select * from #_tintuc where id_loai = 1318 
         </div>
     </div>
 </section>
+
+<script>
+    const listImage = [];
+
+    const handleSelectItem = (e) => {
+        e.classList.toggle("active");
+        const src = e.getAttribute("data-src");
+        const index = listImage.findIndex(item => item === src);
+        if (index === -1) {
+            listImage.push(src)
+        } else {
+            listImage.splice(index, 1);
+        }
+
+        let listActiveItem = document.querySelectorAll(".thuctrang li.active");
+        let buttonCompare = document.querySelector(".compare");
+        if (listActiveItem.length > 0) {
+            buttonCompare.classList.add("active");
+        } else {
+            buttonCompare.classList.remove("active");
+        }
+    }
+
+    const handleClickShowView = (e) => {
+
+        let listActiveItem = document.querySelectorAll(".thuctrang li.active");
+        if (listActiveItem.length <= 0) {
+            swal("<?= _chonmotvande ?>", "", "warning");
+            return;
+        }
+        document.querySelector("body").classList.add("no-scroll");
+        let data = "";
+        for (let i = 0; i < listImage.length; i++) {
+            data += `
+                <div class="view__compare__item">
+                    <img src="${listImage[i]}" alt="pic">
+                </div>
+            `;
+        }
+
+        document.querySelector(".view__compare").classList.add("active");
+        document.querySelector(".view__container").innerHTML = data;
+    }
+
+    const handleCloseShowView = (e) => {
+        document.querySelector("body").classList.remove("no-scroll");
+        e.classList.remove("active");
+    }
+</script>

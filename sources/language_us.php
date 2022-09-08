@@ -23,6 +23,8 @@
 	define('_hoten','Full name');
 	define('_bando','Bản đồ');
 	define('_facebook','Facebook');
+	define('_sosanhgiaiphap','Compare solutions');
+	define('_chonmotvande','Please select at least one issue');
 	define('_typehoten','Please enter full name');
 	define('_sodienthoai','Phone number');
 	define('_typesodienthoai','Please enter phone number');

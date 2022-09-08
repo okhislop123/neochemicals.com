@@ -18,6 +18,8 @@
 	define('_contac_us','お問い合わせ');
 	define('_bando','地図');
 	define('_facebook','フェイスブック');
+	define('_sosanhgiaiphap','ソリューションの比較');
+	define('_chonmotvande','少なくとも 1 つの問題を選択してください');
 
 	define('_product_discovery','製品の発見');
 	define('_ngaydang','日投稿');
