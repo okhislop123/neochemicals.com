@@ -377,6 +377,10 @@
 }
 /*Ipad dọc(768 x 1024)*/
 @media screen and (max-width: 768px) {
+  .view__compare__item {
+    height: 25vh;
+    width: calc(50% - 20px);
+  }
   .hinhanh__item__img {
     height: 250px;
   }
@@ -685,6 +689,9 @@
 
 /*Tablet nhỏ(480 x 640)*/
 @media screen and (max-width: 767px) {
+  .img__pro {
+    height: 350px;
+  }
   a.logo img {
     height: 100px;
   }
@@ -955,6 +962,9 @@
 }
 
 @media (max-width: 480px) {
+  .list__pro {
+    font-size: 12px;
+  }
   .col-item_0 {
     width: 100%;
   }
